@@ -1,8 +1,11 @@
 # SpringbootDocker
-To deploy spring boot application in docker
+# To deploy spring boot application in docker
 
+# To create a JAR file, execute the below command.
 mvn clean package
 
+#Build the Dockerfile,
 docker build -t app .
 
+#run docker image
 docker run
