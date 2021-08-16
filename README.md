@@ -8,4 +8,4 @@ mvn clean package
 docker build -t app .
 
 # run docker image
-docker run
+docker run app
